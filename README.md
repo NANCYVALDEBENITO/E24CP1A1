@@ -1,24 +1,25 @@
-# README
+# Experiencia 24 - Actividad Presencial I
+## jQuery
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+El objetivo de esta actividad es aprender a implementar el plugin **Knob** en un proyecto en **Ruby On Rails**. Para ello debes leer la documentación oficial y seguir las instrucciones de la actividad.
 
-Things you may want to cover:
+#### Para realizar esta actividad debes haber visto los videos correspondientes a la semana 24.
 
-* Ruby version
+## Ejercicio 1:
 
-* System dependencies
+[jQuery-Knob](http://anthonyterrien.com/knob/) es una biblioteca que permite manejar los input de manera circular y que podemos manipular con el mouse.
 
-* Configuration
+Puedes revisar un demo [aquí](http://anthonyterrien.com/demo/knob/)
 
-* Database creation
+### Para esta actividad deberas crear un RGB Color Picker.
 
-* Database initialization
+Se requiere lo siguiente:
 
-* How to run the test suite
+- Crear una vista que contenga 3 inputs de tipo Knob.
+- Cada input corresponderá a un valor, es decir, uno para **red**, **green** y **blue**.
+	- Al modificar un input, el valor RGB debe cambiar sólo el correspondiente a ese input.
+- A continuación debes agregar un texto que represente el valor de cada input.
+- Finalmente agregar un div que cambie de color de acuerdo al cambio de valores de los input.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Imagen de referencia:
+![](ss_1.png)
