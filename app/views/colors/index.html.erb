@@ -2,24 +2,9 @@
 
 <h1>Colors</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<input type="text" value="255" class="dial">
 
-  <tbody>
-    <% @colors.each do |color| %>
-      <tr>
-        <td><%= link_to 'Show', color %></td>
-        <td><%= link_to 'Edit', edit_color_path(color) %></td>
-        <td><%= link_to 'Destroy', color, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
 
-<br>
+<input type="text" value="0" class="dial">
 
-<%= link_to 'New Color', new_color_path %>
+<input type="text" value="75" class="dial">

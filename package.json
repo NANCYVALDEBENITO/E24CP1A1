@@ -1,5 +1,8 @@
 {
   "name": "color-picker",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "jquery-knob": "^1.2.11"
+  }
 }
