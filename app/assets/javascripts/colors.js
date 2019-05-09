@@ -32,8 +32,9 @@ $("div").click(function(){
 	var v3 =  document.getElementById('blue').value;
 	console.log(v1)
 
+	var color = $('#d').css('background', 'rgb('+v1+','+v2+','+v3+')' );
+	$( "#result" ).html( "That div is style= background:rgb(" + v1+","+v2+","+v3+ ")" );
 
-	$('#d').css('background', 'rgb('+v1+','+v2+','+v3+')' );
 	});
 
 
