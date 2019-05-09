@@ -5,14 +5,14 @@
 $(function(){
 
 $(".dial").knob({
-        'change' : function (v) { console.log(v); }
+        'change' : function (v) {return v; }
     });
 
 
 $('.dial').trigger(
         'configure',
         {
-            "data-width":100,
+            
             "fgColor":"#FF0000",
             "skin":"tron",
             "cursor":true,
@@ -22,11 +22,21 @@ $('.dial').trigger(
     );
 
 $('.dial')
-    .val(0)
+    .val(10)
     .trigger('change');
 
+$("div").click(function(){
+
+	var v1 =  document.getElementById('red').value;
+	var v2 =  document.getElementById('green').value;
+	var v3 =  document.getElementById('blue').value;
+	console.log(v1)
+
+
+	$('#d').css('background', 'rgb('+v1+','+v2+','+v3+')' );
+	});
 
 
 
-	
+
 });
